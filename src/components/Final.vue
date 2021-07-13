@@ -5,13 +5,17 @@
     <br />
     <input type="text" v-model="textoAModificar">
     <div v-show="getCantidadInput > 0">
-      <label> Cantidad: {{getCantidadInput}} </label><br />
-      <label> Codificado: {{codificar()}} </label><br />
-      <label> Mayúscula: {{pasarAMayuscula()}} </label><br />
-      <label> Minúscula: {{pasarAMinuscula()}} </label><br />
-      <label> Mayúscula/Minúscula: {{intercaladoMayusPrimero()}} </label><br />
-      <label> Minúscula/Mayúscula: {{intercaladoMinusPrimero()}} </label><br />
+      <b> Cantidad: {{getCantidadInput}} </b><br />
+      <b> Codificado: {{codificar()}} </b><br />
+      <b> Mayúscula: {{pasarAMayuscula()}} </b><br />
+      <b> Minúscula: {{pasarAMinuscula()}} </b><br />
+      <b> Mayúscula/Minúscula: {{intercaladoMayusPrimero()}} </b><br />
+      <b> Minúscula/Mayúscula: {{intercaladoMinusPrimero()}} </b><br />
     </div>
+    <hr />
+    <p>
+      Respuestas: 1 - A, 2 - B, 3 - C, 4 - B, 5 - B y D
+    </p>
   </section>
 
 </template>
